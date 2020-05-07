@@ -5,6 +5,8 @@ const tags = {
   script: 'src',
   'link[rel="stylesheet"]': 'href',
   img: 'src',
+  a: 'href',
+  input: 'src',
 }
 
 function replaceRootSyntaxWithAbsolutePath(bundle) {
