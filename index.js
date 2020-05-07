@@ -4,6 +4,7 @@ const cheerio = require('cheerio')
 const tags = {
   script: 'src',
   'link[rel="stylesheet"]': 'href',
+  img: 'src',
 }
 
 function replaceRootSyntaxWithAbsolutePath(bundle) {
